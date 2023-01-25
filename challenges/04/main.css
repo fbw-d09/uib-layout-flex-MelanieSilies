@@ -3,7 +3,14 @@
 body {
   height: 800px;
   border: 5px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
+
+
 
 div {
   height: 100px;
